@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "jave class problem"
-description: ""
-category: ""
-tags: []
+description: "some jave Q"
+category: "Java"
+tags: [Java,coursera]
 ---
 {% include JB/setup %}
 #some problem on chapter 1.3 
