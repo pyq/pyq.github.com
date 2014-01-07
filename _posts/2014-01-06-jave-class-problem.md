@@ -2,7 +2,7 @@
 layout: post
 title: "jave class problem"
 description: "some jave Q"
-category: "Java"
+category: "coursera"
 tags: [Java,coursera]
 ---
 {% include JB/setup %}
