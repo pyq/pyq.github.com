@@ -20,6 +20,7 @@ To shuffle an array a of n elements (indices 0..n-1):
        exchange a[j] and a[i]
 ``` 
 time O(n)
+
 ##1.3 Inside-Out Algorithm
 the algorithm in ppt
 
@@ -31,6 +32,5 @@ To initialize an array a of n elements to a randomly shuffled copy of source, bo
       if j ≠ i
           a[i] ← a[j]
       a[j] ← source[i]
-
 ```
 time O(n)
