@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "new post"
+title: "java constructor and object"
 description: "constructor and memory"
 category: "Java"
 tags: [Java]
