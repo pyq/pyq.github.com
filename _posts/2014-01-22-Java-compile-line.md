@@ -8,14 +8,14 @@ tags: [java]
 {% include JB/setup %}
 
 ```
-cd xxx/
+cd filepath
 javac a.java
 java a
 ```
 
 ###if a project hava a.java and b.java && a.java use object of b then
 ```
-cd xxx
+cd filepath
 javac *.java
 java a
 ```
