@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}
 Not original, just a note
 
-#ASCiII
+#ASCII
 use a byte(8 bits) to represent characters(English) and punctuation sysbol ..   
 only use the last 7 bits. totally 128. the first bit always 1.
 
@@ -18,5 +18,9 @@ only use the last 7 bits. totally 128. the first bit always 1.
 至于亚洲国家的文字，使用的符号就更多了，汉字就多达10万左右。一个字节只能表示256种符号，肯定是不够的，就必须使用多个字节表达一个符号。比如，简体中文常见的编码方式是GB2312，使用两个字节表示一个汉字，所以理论上最多可以表示256x256=65536个符号。  
 中文编码的问题需要专文讨论，这篇笔记不涉及。这里只指出，虽然都是用多个字节表示一个符号，但是GB类的汉字编码与后文的Unicode和UTF-8是毫无关系的。  
 
-#Unicode
+#Unicode &&　UTF-8
+需要注意的是，Unicode只是一个符号集，它只规定了符号的二进制代码，却没有规定这个二进制代码应该如何存储。
 
+UTF-8是Unicode的实现方式之一。
+
+UTF-8 (UCS Transformation Format—8-bit) is a variable-width encoding that can represent every character in the Unicode character set.
