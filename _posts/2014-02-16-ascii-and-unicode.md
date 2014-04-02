@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "ASCII and Unicode"
-description: ""
-category: ""
-tags: []
+description: "Character representation"
+category: "Charater"
+tags: [Character]
 ---
 {% include JB/setup %}
 Not original, just a note
