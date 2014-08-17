@@ -19,10 +19,13 @@ tags: [java]
 4. The compliler does ensure that the method exists and performs type checking on the arguments and return value, but it doesn't know the exact code to execute.(late binding)
 
 ```
+
 void doSomething(Shape shape) {  shape.erase();  // ...  shape.draw();}
 
 Circle circle = new Circle();Triangle triangle = new Triangle();Line line= new Line();doSomething(circle);doSomething(triangle);doSomething(line);	
-//do something base on circle.```
+//do something base on circle.
+```
+
 5. objects are created on the heap. (? primitive type on stack?)
 6. everything is an object, container holds objects can hold anything
 7. upcasting (safe! like circle is a type of shape) & downcasting (unsafe so have parameterized type)
