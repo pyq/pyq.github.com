@@ -5,6 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 ##code for post
+
 ```
 $ rake post title="Hello World"
 
@@ -16,6 +17,7 @@ rake page name="pages/about"
 ```
 
 ##code for publish
+
 ```
 git add .
 git commit -m "Add new content"
