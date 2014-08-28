@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java Note   Initialization & Cleanup"
+title: "Java Note Initialization and Cleanup"
 description: ""
 category: "java"
 tags: [java]
@@ -15,7 +15,7 @@ tags: [java]
 6. this() only used inside constructor, and can call only one time, the first thing to do, or will get error.
 7. you cannot call not-static methods from inside static methods. (reverse ok), but one case possible is passing a reference to an object into the static method(or create its own object.) like main(), then via the reference call non-static methods. 
 
-8. gabage collection & finalization  (1,your object might not get garbage collected 2, garbage collection is not destruction. 3, garbage collection is only about memory) --- many more things need to more reading	
+8. gabage collection and finalization  (1,your object might not get garbage collected 2, garbage collection is not destruction. 3, garbage collection is only about memory) --- many more things need to more reading	
 9. an uninitialized local is a programmer error, a field in a class would have default value.
 10. **char** value is a zero which prints as a space, for automatically initialize. for object is null
 
